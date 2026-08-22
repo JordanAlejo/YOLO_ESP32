@@ -1,5 +1,6 @@
 import cv2
 from ultralytics import YOLO
+# Actualizacion de yolo
 
 # Cargar YOLOv8
 model = YOLO("yolov8n.pt")
