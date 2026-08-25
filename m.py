@@ -133,13 +133,13 @@ while cap.isOpened():
     # INDICADOR MOTO
     # ==============================
 
-    color_azul = (255, 0, 0) if moto_detectada else (50, 50, 50)
+    color_verde = (255, 0, 0) if moto_detectada else (50, 50, 50)
 
     cv2.circle(
         frame,
         (50, 150),
         30,
-        color_azul,
+        color_verde,
         -1
     )
 
@@ -149,7 +149,7 @@ while cap.isOpened():
         (100, 160),
         cv2.FONT_HERSHEY_SIMPLEX,
         1,
-        color_azul,
+        color_verde,
         2
     )
 
