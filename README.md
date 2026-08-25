@@ -245,10 +245,10 @@ Automóvil detectado
         ▼
    LED rojo ON
 
-Motocicleta detectada
+  Moto detectada
         │
         ▼
-   LED azul ON
+   LED verde ON
 
 Ningún vehículo detectado
         │
@@ -288,7 +288,7 @@ ESP32 GPIO 26
    220 Ω
       │
       ▼
- LED AZUL
+ LED verde
       │
       ▼
      GND
@@ -388,8 +388,7 @@ Se uso la plataforma de Woki para elaborar el montaje de la ESP32
 
 https://wokwi.com/projects/473288472478494721
 
-![Foto](img/foto.png)
-
+![Foto](img/foto.jpg)
 
 ## Bibliografía
 
